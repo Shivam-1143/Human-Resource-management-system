@@ -67,6 +67,10 @@ public class LoginAdmin {
 				td.transferEmployeeOtherDepartment();
 		break;
 		
+		case 6: GetAllLeavesRequest lr = new GetAllLeavesRequest();
+				lr.viewLeavesRequests();
+		break;
+				
 		case 7: System.out.println("Thank you 👋");
 		
 		break;
