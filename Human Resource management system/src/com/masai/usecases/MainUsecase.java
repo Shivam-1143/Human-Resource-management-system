@@ -13,7 +13,7 @@ public class MainUsecase {
 		
 		int choice = sc.nextInt();
 		
-		switch(choice) {
+		switch(choice){
 		
 		case 1: LoginAdmin la = new LoginAdmin();
 				la.adminLogin();
@@ -30,6 +30,7 @@ public class MainUsecase {
 		default: System.out.println("Invalid choice");
 				 main(args);
 		break;
+		
 		}
 	}
 }

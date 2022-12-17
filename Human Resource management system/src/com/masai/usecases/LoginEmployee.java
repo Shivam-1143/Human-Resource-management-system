@@ -36,7 +36,7 @@ public class LoginEmployee {
 	void employeeTasks(int empId) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("\n************************\n");
+		System.out.println("************************\n");
 		
 		System.out.println("1. View profile");
 		System.out.println("2. Update profile");
@@ -58,6 +58,10 @@ public class LoginEmployee {
 		
 		case 3: ChangedPassword cp = new ChangedPassword();
 				cp.changedPassword(empId);
+		break;
+		
+		case 4: SendRequestUseCase sr = new SendRequestUseCase();
+				sr.sendRequest(empId);
 		break;
 		
 		case 5: System.out.println("Thank you 👋"+"\n");
