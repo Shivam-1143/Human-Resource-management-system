@@ -1,10 +1,10 @@
-package com.masai.usecases;
+package com.masai.UseCases;
 
 import java.util.Scanner;
 
-import com.masai.dao.EmployeeDao;
-import com.masai.dao.EmployeeDaoImpl;
-import com.masai.exceptions.EmployeeException;
+import com.masai.Dao.EmployeeDao;
+import com.masai.Dao.EmployeeDaoImpl;
+import com.masai.Exceptions.EmployeeException;
 
 public class UpdateProfileUsecase {
 	

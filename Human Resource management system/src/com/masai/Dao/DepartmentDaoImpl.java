@@ -1,4 +1,4 @@
-package com.masai.dao;
+package com.masai.Dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.masai.exceptions.DepartmentException;
-import com.masai.model.Department;
-import com.masai.utility.DBUtil;
+import com.masai.Exceptions.DepartmentException;
+import com.masai.Model.Department;
+import com.masai.Utility.DBUtil;
 
 public class DepartmentDaoImpl implements DepartmentDao{
 

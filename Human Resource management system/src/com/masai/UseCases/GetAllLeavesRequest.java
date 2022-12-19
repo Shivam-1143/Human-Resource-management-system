@@ -1,11 +1,11 @@
-package com.masai.usecases;
+package com.masai.UseCases;
 
 import java.util.List;
 
-import com.masai.dao.LeaveDao;
-import com.masai.dao.LeaveDaoImpl;
-import com.masai.exceptions.LeaveException;
-import com.masai.model.Leave;
+import com.masai.Dao.LeaveDao;
+import com.masai.Dao.LeaveDaoImpl;
+import com.masai.Exceptions.LeaveException;
+import com.masai.Model.Leave;
 
 public class GetAllLeavesRequest {
 	void viewLeavesRequests() {

@@ -1,9 +1,9 @@
-package com.masai.dao;
+package com.masai.Dao;
 
 import java.util.List;
 
-import com.masai.exceptions.DepartmentException;
-import com.masai.model.Department;
+import com.masai.Exceptions.DepartmentException;
+import com.masai.Model.Department;
 
 public interface DepartmentDao {
 	public String addDepartment(int deptId,String deptName) throws DepartmentException;

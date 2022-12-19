@@ -1,10 +1,10 @@
-package com.masai.usecases;
+package com.masai.UseCases;
 
 import java.util.Scanner;
 
-import com.masai.dao.AdminDao;
-import com.masai.dao.AdminDaoImpl;
-import com.masai.exceptions.AdminException;
+import com.masai.Dao.AdminDao;
+import com.masai.Dao.AdminDaoImpl;
+import com.masai.Exceptions.AdminException;
 
 public class LoginAdmin {
 	
