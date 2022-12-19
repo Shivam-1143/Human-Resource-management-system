@@ -1,4 +1,4 @@
-package com.masai.exceptions;
+package com.masai.Exceptions;
 
 public class LeaveException extends Exception{
 	

@@ -1,4 +1,4 @@
-package com.masai.dao;
+package com.masai.Dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.masai.exceptions.LeaveException;
-import com.masai.model.Leave;
-import com.masai.utility.DBUtil;
+import com.masai.Exceptions.LeaveException;
+import com.masai.Model.Leave;
+import com.masai.Utility.DBUtil;
 
 public class LeaveDaoImpl implements LeaveDao {
 

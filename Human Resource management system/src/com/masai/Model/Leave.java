@@ -1,4 +1,4 @@
-package com.masai.model;
+package com.masai.Model;
 
 import java.util.Date;
 

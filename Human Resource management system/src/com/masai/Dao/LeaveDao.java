@@ -1,9 +1,9 @@
-package com.masai.dao;
+package com.masai.Dao;
 
 import java.util.List;
 
-import com.masai.exceptions.LeaveException;
-import com.masai.model.Leave;
+import com.masai.Exceptions.LeaveException;
+import com.masai.Model.Leave;
 
 public interface LeaveDao {
 	public String sendLeaveRequest(String title,int days,int empId) throws LeaveException;

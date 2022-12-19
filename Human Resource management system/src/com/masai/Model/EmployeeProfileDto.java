@@ -1,4 +1,4 @@
-package com.masai.model;
+package com.masai.Model;
 
 public class EmployeeProfileDto {
 	private int empId;

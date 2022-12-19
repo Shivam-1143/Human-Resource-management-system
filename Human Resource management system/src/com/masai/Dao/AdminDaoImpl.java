@@ -1,12 +1,12 @@
-package com.masai.dao;
+package com.masai.Dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.masai.exceptions.AdminException;
-import com.masai.utility.DBUtil;
+import com.masai.Exceptions.AdminException;
+import com.masai.Utility.DBUtil;
 
 public class AdminDaoImpl implements AdminDao{
 

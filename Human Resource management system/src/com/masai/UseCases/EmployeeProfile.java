@@ -1,11 +1,11 @@
-package com.masai.usecases;
+package com.masai.UseCases;
 
 import java.util.Scanner;
 
-import com.masai.dao.EmployeeDao;
-import com.masai.dao.EmployeeDaoImpl;
-import com.masai.model.Employee;
-import com.masai.model.EmployeeProfileDto;
+import com.masai.Dao.EmployeeDao;
+import com.masai.Dao.EmployeeDaoImpl;
+import com.masai.Model.Employee;
+import com.masai.Model.EmployeeProfileDto;
 
 public class EmployeeProfile {
 	
